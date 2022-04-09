@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #232323;
+    background-image: linear-gradient(225deg, #0cbaba 0%, #380036 74%);
+}
+
+p {
+    line-height: 2;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #232323;
+    padding: 0px;
+    box-shadow: 0px 10px 4px 0px rgba(0,0,0,0.4);
+}
+  
+.topnav a {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Source Code Pro', monospace;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    transition: 0.5s;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #bb8bb9;
+    background-image: linear-gradient(90deg, #a8f9f9 0%, #bb8bb9 74%);
+    font-family: 'Source Code Pro', monospace;
+    box-shadow: 5px 5px 5px #555 inset;
+    color: black;
+}
+
+.bottom {
+    height: 15vh;
+    padding: 10px;
+    background-color: #232323;
+}
+
+.bottom a {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Source Code Pro', monospace;
+}
+  
+.bottom a:hover {
+    transition: 0.5s;
+    color: #a8f9f9;
+}
+
+.center {
+    margin: auto;
+    background: rgba(23, 23, 23, 0.8);
+    width: 80%;
+    min-height: 80vh;
+    height: 80%;
+    padding: 30px;
+    position: relative;
+}
+
+.textarea {
+    margin: auto;
+    width: 95%;
+    position: relative;
+    line-height: 2;
+}
+
+a {
+    color: #a8f9f9;
+}
+
+a.active {
+    color: #bb8bb9;
+}

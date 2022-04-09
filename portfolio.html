@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portfolio</title>
+    <style>
+        .clickable a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .button {
+            float: right;
+            vertical-align: bottom;
+            margin-left: 10px;
+            color: white;
+            background-color: #232323;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.4);
+        }
+
+        .buttons a:hover {
+            background-color: rgb(255, 255, 255);
+            transition: 0.2s;
+            color: black;
+        }
+
+        .vid {
+            width: 25vw;
+            float: right;
+        }
+
+        .post {
+            width: 50vw;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="portfolio.html">Portfolio</a>
+        <a href="qualifications.html">Qualifications</a>
+        <a href="aboutMe.html">About Me</a>
+        <a href="index.html">Home</a>
+    </div>
+    <div class="center" style="height: ">
+        <h1>Portfolio:</h1>
+        <hr>
+        <br>
+        <div class="textarea">
+            <div>
+                <h2>Speech-to-Text LED Face Mask (WIP)</h2>
+                <p class="post">
+                    Powered by a Raspberry Pi, audio input is translated and displayed on an LED matrix. This project is
+                    written in Python and uses the CircuitPython and PIL libraries to process and display images on the
+                    LED matrices. These matrices are connected to the Raspberry Pi's GPIO ports. Mozilla's DeepSpeech
+                    API is used for audio processing, and it uses an offline machine learning model to transcribe audio
+                    to text for the matrices to display.
+                </p>
+                <video class="vid" src="assets/mask.mp4" controls autoplay loop></video>
+            </div>
+            <div style="height: 50px; clear: both;"></div>
+
+            <div>
+                <h2>Custom Bash Shell</h2>
+                <p class="post">
+                    Using the UNIX API, I implemented a custom shell in Linux. The program is written in C++, and takes
+                    advantage of the fork and exec functions to duplicate the process and execute the command,
+                    respectively.
+                </p>
+                <video class="vid" src="assets/shell.mp4" controls autoplay loop></video>
+            </div>
+
+            <div style="height: 50px; clear: both;"></div>
+
+            <div>
+                <h2>Restaurant Point of Sale System</h2>
+                <p class="post">
+                    This was a class team project over the span of four weeks, with two dedicated to design/planning and two dedicated to implementation.
+                    The project utilized a PostgreSQL database connected to a JavaFX project using JDBC.
+                    The system allowed customers to view and order products, and allowed management to modify products and view trends.
+                    I worked on the front-end and back-end for the some scenes including the expanded menus, the cart, and order queue/status.
+                </p>
+                <video class="vid" src="assets/team_project2.mp4" controls autoplay loop></video>
+            </div>
+
+            <div style="height: 100px; clear: both;"></div>
+            <div class="buttons">
+                <a class="button" href="https://github.com/CodingNguyen/">My Personal GitHub</a>
+            </div>
+
+            <div style="height: 100px;"></div>
+
+        </div>
+    </div>
+    <div class="bottom">
+        <a href="assets/Resume.pdf" download="Resume.pdf">Resum&eacute</a>
+        <a href="mailto:codynguyen.info@gmail.com" style="border-right: 1px solid white;">Email:
+            codynguyen.info@gmail.com</a>
+    </div>
+</body>
+
+</html>
